@@ -30,3 +30,12 @@ export interface IMenu{
   img?: string;
   color: string;
 }
+
+export interface IPriceProps{
+  id: number,
+  price: number,
+  options?: {
+    title: string,
+    additionalPrice: number
+  }[]
+}
